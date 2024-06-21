@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ExamJavaAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".task13.task13"
+            android:exported="false" />
+        <activity
             android:name=".task12.task12Activity2"
             android:exported="false" />
         <activity

@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.mirea.kt.ribo.examjavaandroid.databinding.ActivityMainBinding;
 import com.mirea.kt.ribo.examjavaandroid.task11.task11_activity;
 import com.mirea.kt.ribo.examjavaandroid.task12.task12Activity;
+import com.mirea.kt.ribo.examjavaandroid.task13.task13;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ActivityMainBinding binding;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(v.getId() == R.id.btn_task_12){
             startActivity(new Intent(this, task12Activity.class));
         }else if(v.getId() == R.id.btn_task_13){
-
+            startActivity(new Intent(this, task13.class));
         }else if(v.getId() == R.id.btn_task_14){
 
         }else if(v.getId() == R.id.btn_task_15){
