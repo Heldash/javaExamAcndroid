@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task11.task11_activity">
+    <EditText
+        android:id="@+id/first_sum"
+        android:layout_marginTop="20dp"
+        android:hint="Первое слагаемое"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number|numberSigned"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/second_sum"
+        android:layout_marginTop="10dp"
+        android:hint="Второе слагаемое"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number|numberSigned"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sum_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Сложить"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Результат"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+        android:gravity="center"/>
+</LinearLayout>
