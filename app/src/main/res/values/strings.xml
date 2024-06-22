@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">examJavaAndroid</string>
+    <string name="text">Введите текст и название файла для сохранения. Файл будет сохранен во внутренней памяти устройства</string>
 </resources>
