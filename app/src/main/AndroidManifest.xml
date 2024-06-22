@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamJavaAndroid"
         tools:targetApi="31">
+        <activity
+            android:name=".Task20.Task20"
+            android:exported="false" />
+
+        <service
+            android:name=".task18.SomeService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".task18.Task18"
+            android:exported="false" />
+        <activity
+            android:name=".task19.task19"
+            android:exported="false" />
         <activity
             android:name=".task13.task13"
             android:exported="false" />

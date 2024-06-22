@@ -11,10 +11,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.mirea.kt.ribo.examjavaandroid.Task20.Task20;
 import com.mirea.kt.ribo.examjavaandroid.databinding.ActivityMainBinding;
 import com.mirea.kt.ribo.examjavaandroid.task11.task11_activity;
 import com.mirea.kt.ribo.examjavaandroid.task12.task12Activity;
 import com.mirea.kt.ribo.examjavaandroid.task13.task13;
+import com.mirea.kt.ribo.examjavaandroid.task18.Task18;
+import com.mirea.kt.ribo.examjavaandroid.task19.task19;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ActivityMainBinding binding;
@@ -55,11 +58,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(v.getId() == R.id.btn_task_17){
 
         }else if(v.getId() == R.id.btn_task_18){
-
+            startActivity(new Intent(this, Task18.class));
         }else if(v.getId() == R.id.btn_task_19){
-
+            startActivity(new Intent(this, task19.class));
         }else if(v.getId() == R.id.btn_task_20){
-
+            startActivity(new Intent(this, Task20.class));
         }
     }
 }
