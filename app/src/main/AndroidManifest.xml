@@ -25,6 +25,9 @@
             android:enabled="true"
             android:exported="true" />
         <activity
+            android:name=".task16.task16"
+            android:exported="false" />
+        <activity
             android:name=".task17.task17"
             android:exported="false" />
         <activity
