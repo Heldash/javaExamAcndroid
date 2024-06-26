@@ -8,7 +8,6 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.mirea.kt.ribo.examjavaandroid.R;
-import com.mirea.kt.ribo.examjavaandroid.task19.POSTMessage;
 
 public class Task20 extends AppCompatActivity implements View.OnClickListener {
 

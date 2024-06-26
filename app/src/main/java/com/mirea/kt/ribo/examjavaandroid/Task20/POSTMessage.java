@@ -1,8 +1,6 @@
-package com.mirea.kt.ribo.examjavaandroid.task19;
+package com.mirea.kt.ribo.examjavaandroid.Task20;
 
 import android.util.Log;
-
-import com.mirea.kt.ribo.examjavaandroid.Task20.Task20;
 
 import java.io.BufferedReader;
 import java.io.IOException;
