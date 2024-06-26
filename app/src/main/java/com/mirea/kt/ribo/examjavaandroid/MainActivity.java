@@ -16,6 +16,8 @@ import com.mirea.kt.ribo.examjavaandroid.databinding.ActivityMainBinding;
 import com.mirea.kt.ribo.examjavaandroid.task11.task11_activity;
 import com.mirea.kt.ribo.examjavaandroid.task12.task12Activity;
 import com.mirea.kt.ribo.examjavaandroid.task13.task13;
+import com.mirea.kt.ribo.examjavaandroid.task14.task14Activity;
+import com.mirea.kt.ribo.examjavaandroid.task15.task15Activity;
 import com.mirea.kt.ribo.examjavaandroid.task16.task16;
 import com.mirea.kt.ribo.examjavaandroid.task17.task17;
 import com.mirea.kt.ribo.examjavaandroid.task18.Task18;
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(v.getId() == R.id.btn_task_14){
             startActivity(new Intent(this, task14Activity.class));
         }else if(v.getId() == R.id.btn_task_15){
-
+            startActivity(new Intent(this, task15Activity.class));
         }else if(v.getId() == R.id.btn_task_16){
             startActivity(new Intent(this, task16.class));
         }else if(v.getId() == R.id.btn_task_17){

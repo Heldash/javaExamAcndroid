@@ -7,4 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".task15.task15Activity">
 
+    <Button
+        android:id="@+id/collect_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Собрать сообщения"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/message_rec"
+        android:layout_width="0dp"
+        android:layout_height="649dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/collect_message" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
